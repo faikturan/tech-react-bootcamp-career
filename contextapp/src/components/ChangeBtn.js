@@ -19,10 +19,11 @@ function ChangeBtn() {
 
   return (
     <div>
+        <input type="button" onClick={onClick} value="Change Name" />
         <input
         type="button"
         onClick={changeTheme}
-        value={`${theme === "dark"} ? "Light Theme" : "Dark Theme"}`} />
+        value={`${theme === "dark" ? "Light Theme" : "Dark Theme"}`} />
     </div>
   );
 }
