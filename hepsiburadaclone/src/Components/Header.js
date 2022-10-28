@@ -14,6 +14,8 @@ import {
     MyCart,
 } from "../Styles/Header.Style";
 
+import Location from "../Components/Location"
+
 const Header = () => {
     const history = useHistory();
     const [searchFocus, setSearchFocus] = useState(false)
@@ -54,7 +56,7 @@ const Header = () => {
                 ARA
             </SearchButton>
         </SearchBar>
-        
+        <Location />
         <MyAccount>
             <div>
             <svg

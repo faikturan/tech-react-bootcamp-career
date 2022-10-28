@@ -15,4 +15,4 @@ const ColorfulBorder = () => {
   )
 }
 
-export default ColorfulBorder
+export default ColorfulBorder;

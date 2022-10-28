@@ -91,4 +91,3 @@ export const ChooseCity = styled.div`
     color: #484848;
   }
 `;
-Footer

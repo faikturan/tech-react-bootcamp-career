@@ -1,12 +1,12 @@
 import './App.css';
-import ColorfulBorder from './Components/ColorfulBorder';
-import Header from './Components/Header';
+import { ColorfulBorder, Header, Menu }from './Components';
 
 function App() {
   return (
     <>
       <Header />
       <ColorfulBorder />
+      <Menu />
     </>
   
    
