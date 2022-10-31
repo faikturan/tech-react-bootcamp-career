@@ -42,9 +42,9 @@ const Products = () => {
                         <span>Kategori</span>
                     </div>
                     <div>
-                        {category.childs.map((subCategory) => {
+                        {category.childs.map((subCategory) => (
                             <span>{subCategory}</span>
-                        })}
+                        ))}
                     </div>
                 </ChildrenCategories>
                 <Brands>
@@ -81,4 +81,4 @@ const Products = () => {
   );
 };
 
-export default Products
+export default Products;
