@@ -10,7 +10,7 @@ import {
   ChildrenCategories,
   Brands,
 } from "../Styles/Products.Style";
-import { ProductCard } from "./index";
+import { ProductCard } from "./Index";
 import { getCategoryProducts } from "../Store/actions/ProductsActions";
 import { getChildCategories } from "../Store/actions/CategoryActions";
 import NotFound from "./NotFound";
