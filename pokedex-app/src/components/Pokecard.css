@@ -8,6 +8,8 @@
     box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.5);
     transform: scale(1);
     transition: transform 200ms;
+    width: 100%;
+    height: auto;
   }
   
   .Pokecard:hover {
